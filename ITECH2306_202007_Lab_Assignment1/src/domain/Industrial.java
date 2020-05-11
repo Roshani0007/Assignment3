@@ -1,9 +1,7 @@
 package domain;
 
 /**
- * @author Takeogh
- * @version 1.0
- * @created 02-Apr-2020 8:30:00am
+ * @author Roshani
  */
 public class Industrial extends Property {
 
@@ -25,6 +23,8 @@ public class Industrial extends Property {
 		// TODO Auto-generated method stub
 		
 	}
+
+	Acer Swift 1 SF114-32-C736 14" Full HD Laptop (64GB) [Celeron]
 
 	
 }
