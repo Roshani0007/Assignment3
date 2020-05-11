@@ -17,16 +17,6 @@ public class SchoolCommunity {
 	private static final double FIRE_SERVICES_BASE=200;
 	private static final double FIRE_SERVICES_PERCENT=0.0006;//0.006% GIVEN
 
-	private static final double TRAFFIC_MANAGEMENT_BASE=200;
-	private static final double TRAFFIC_MANAGEMENT_BASE_Small=60;
-	private static final double TRAFFIC_MANAGEMENT_Medium=80;
-	private static final double TRAFFIC_MANAGEMENT_BASE_Large=100;
-	
-	private double categoryAmount;
-	private ServiceType industrailWasteDiposalt;
-	private ServiceType fireServicesLevy;
-	private ServiceType trafficeManagementLevy;
-	
 	
 	public SchoolCommunity(int category) {
 		super();
