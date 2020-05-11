@@ -24,7 +24,7 @@ public class Industrial extends Property {
 		
 	}
 
-	Acer Swift 1 SF114-32-C736 14" Full HD Laptop (64GB) [Celeron]
+
 
 	
 }
