@@ -1,7 +1,7 @@
 package domain;
 
 /**
- * @author Roshani
+ * @author Yangji
  */
 public class Industrial extends Property {
 
