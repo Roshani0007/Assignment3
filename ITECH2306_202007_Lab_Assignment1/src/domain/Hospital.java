@@ -64,7 +64,7 @@ package domain;
 
 	@Override
 	public String toString() {
-		return  super.toString() + "Hospital [\n" + 
+		return  super.toString() + "Hospital2 [\n" + 
 									industriaWasteManagement.toString() + "\n" +
 									fireServicesLevy.toString() + " ]\n ";
 	}

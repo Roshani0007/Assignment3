@@ -159,6 +159,7 @@ public class CalculatePropertyTypeRates extends FunctionalDialog {
 			case(VACANT_LAND):
 				break;
 			case(HOSPITAL):
+				property=new Hospital();
 				break;
 			case(INDUSTRIAL):
 				break;
