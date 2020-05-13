@@ -21,7 +21,7 @@ public class SchoolCommunity {
 	public SchoolCommunity(int category) {
 		super();
 		// this is explicit for the defaults strings
-		this.setClassification("public");
+		this.setClassification("pubc");
 		this.setCategory("Lower Secondary");
 		
 	setCapitalImprovedRate(CIV_RATE);

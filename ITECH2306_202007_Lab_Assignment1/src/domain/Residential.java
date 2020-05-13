@@ -1,9 +1,9 @@
 package domain;
 
 /**
- * @author Takeogh
+ * @author Roshani
  * @version 1.0
- * @created 02-Apr-2020 8:30:00am
+ * @created 13-May-2020 10:30:00am
  */
 public class Residential extends Property{
 
