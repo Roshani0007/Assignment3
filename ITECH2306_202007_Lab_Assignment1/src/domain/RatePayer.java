@@ -1,7 +1,7 @@
 package domain;
 
 /**
- * @author Takeogh
+ * @author Yangji
  * @version 1.0
  * @created 02-Apr-2020 8:30:00am
  */
@@ -15,16 +15,17 @@ public class RatePayer {
 	private boolean charity;
 	//Discount might not necessarily be on RatePayer but for convenience at the moment we place it here.
 	private double charityDiscountPercentage = 0.20;
-	private static final String DUMMY_VALUE = "Dummy Value";
 	
-	public RatePayer() {
-		this.setName(DUMMY_VALUE);
-		this.setAddress(DUMMY_VALUE);
-		this.setPostcode(DUMMY_VALUE);
-		this.setPhone(DUMMY_VALUE);
-		this.setType(DUMMY_VALUE);
-		this.setCharity(false);
+	
+	public RatePayer(String name,String address,String postcode,String phone,String type,boolean charity) {
+		this.setName(name);
+		this.setAddress(address);
+		this.setPostcode(postcode);
+		this.setPhone(phone);
+		this.setType(type);
+		this.setCharity(charity);
 	}
+	
 
 	public String getName() {
 		return name;
@@ -70,8 +71,8 @@ public class RatePayer {
 		return charity;
 	}
 
-	public void setCharity(boolean charity) {
-		this.charity = charity;
+	public void setCharity(boolean attributes) {
+		this.charity = attributes;
 	}
 
 	
